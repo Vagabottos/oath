@@ -3,7 +3,7 @@
   color: "#000000"
   children:
     - text: Place the **map** on the table. Deal the Chronicled **site cards** and their attached **denizen**, **edifice**, and **relic cards** to the site slots on the map. Fill the Cradle fully, then the Provinces fully, then the Hinterland fully, from top to bottom.
-    - text: Place the **round marker** on the first _(star)_ space of the round track and the **Visions Drawn** marker on the "0" (star) space of the Visions Drawn track.
+    - text: Place the **round marker** on the first _(star)_ space of the round track and the **Visions Drawn** marker on the "0" _(star)_ space of the Visions Drawn track.
     - text: Place the Chronicled **goal reference** near the map.
     - text: "Collect the **following pieces** in the shared bank: 10 attack dice, 6 defense dice, the end die, 36 favor tokens, 20 secret tokens, the Banner of the Darkest Secret placard, and the Banner of the People’s Favor placard on the side without the Mob label."
     - text: Place 1 **favor token** on the People’s Favor and 1 **secret token** on the Darkest Secret.
