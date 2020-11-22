@@ -252,7 +252,7 @@
         - name: "Step 2: Draw 3 Cards."
           text: Draw from the world deck or the discard pile of the region your pawn is in _(not both)_. If you draw from the world deck, draw one at a time. If you draw a Vision card from the world deck _(not a discard pile)_, you must say that you drew a Vision, stop drawing cards now, and advance the Visions Drawn marker by one space (`rule:2.7.1`).
         - name: "Step 3: Discard Cards."
-          text: Discard all the cards you drew except for one. _(Follow the "Discard" term in the Glossary [`rule:10`].)_
+          text: Discard all the cards you drew except for one.
         - name: "Step 4: Play One Card."
           text: Play the one remaining card to your site (`rule:5.1.4.1`), your advisers (`rule:5.1.4.2`), or your Revealed Vision space if you are an Exile - or you may discard it. You must follow its restrictions (`rule:7.2`, `rule:5.1.4.1`–`rule:5.1.4.4`).
           subchildren:
