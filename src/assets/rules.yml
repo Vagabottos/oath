@@ -481,7 +481,8 @@
           text: >
             To use a power, you must pay its cost, if any. Denizens, relics, and edifices have a cost on their braid. Sites and the Conspiracy have costs described in their text.
 
-            <br>
+            <br><br>
+            
             `symbol:favor` Place one favor here.
             <br>
             `symbol:favorb` Burn one favor, returning it to the shared bank.
