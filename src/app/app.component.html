@@ -1,0 +1,30 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>
+            <span class="ion-hide-sm-down">Rules (1st Ed.)</span>
+            <span class="ion-hide-md-up">Rules (1st Ed.)</span>
+          </ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content>
+        <ion-list lines="none">
+          <ion-menu-toggle *ngFor="let ruleHead of rulesService.rules" autoHide="false">
+            <ion-item color="transparent"
+                      (click)="rulesService.navigate$.next(rulesService.indexesToRules[ruleHead.index])"
+                      [style.border-left]="'5px solid ' + ruleHead.color" 
+                      [style.border-bottom]="'1px solid ' + ruleHead.color">
+                      {{ ruleHead.name }}
+                      <img *ngIf="ruleHead.icon" class="inline-icon ion-margin-start" [src]="'assets/inicon/faction-' + ruleHead.icon + '.png'" />
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
