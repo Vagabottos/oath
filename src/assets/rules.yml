@@ -480,18 +480,15 @@
         - name: Cost.
           text: >
             To use a power, you must pay its cost, if any. Denizens, relics, and edifices have a cost on their braid. Sites and the Conspiracy have costs described in their text.
-
-            <br><br>
             
-            `symbol:favor` Place one favor here.
-            <br>
-            `symbol:favorb` Burn one favor, returning it to the shared bank.
-            <br>
-            `symbol:secret` Place one secret here.
-            <br>
-            `symbol:secretb` Burn one secret, returning it to the shared bank.
+              - `symbol:favor` Place one favor here.
 
-            <br><br>
+              - `symbol:favorb` Burn one favor, returning it to the shared bank.
+
+              - `symbol:secret` Place one secret here.
+              
+              - `symbol:secretb` Burn one secret, returning it to the shared bank.
+
             You cannot place favor or secrets on a card that has favor or secrets on it already. If you pay a cost outside your turn, move the favor to the matching favor bank immediately, and flip the secrets facedown and keep them on your board. Facedown secrets cannot be placed or burned to pay a cost. 
 
         - name: Use.
