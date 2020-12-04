@@ -380,7 +380,7 @@
         
         - name: "Step 7: Resolve Attacker's Victory."
           text: If the attacker is victorious, they resolve the following steps in order.
-          children:
+          subchildren:
             - name: "Take Rule of Any Targeted Sites."
               text: >
                 You may place any number of your warbands, even zero, from your force onto any targeted sites. _(You can put zero warbands on sites even if you’re a Citizen and targeted Imperial sites.)_
