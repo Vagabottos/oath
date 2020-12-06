@@ -717,3 +717,21 @@
     - text: "**You**: You alone, not including any Imperial Allies (`rule:5.5.2`)."
     - text: "**Your Enemy**: If you're the attacker, the defender and any Imperial Allies (5.5.2). If you're the defender, the attacker."
     - text: "**Your Site/Region**: The site/region that your pawn is in."
+
+- name: Site Reference
+  color: "#000000"
+  children:
+    - text: "**Opportunity Sites**. At the end of your Wake Phase, if your pawn is here, you may take one favor or secret from this site."
+    - text: "**Homeland Sites**. If you play a card of this suit to this site, and you have not discarded a card here of this suit during this turn, you get what is shown, gain `symbol:secret`, or `symbol:favor` from the corresponding favor bank, or 2 warbands, or take the relic here, treating this as recovering it."
+    - text: "**Coast Sites**. When traveling from here to a Coast site, the Travel cost is 1 Supply and you **ignore** the Narrow Pass power."
+    - text: "**Plains, Mountain**. You **must** add _(Plains)_ or subtract _(Mountain)_ one attack die if you declare any number of targets at this site _(even if you rule)_."
+    - text: "**River**. When mustering from a card at this site, you gain one more warband if you rule this site."
+    - text: "**Charming Valley**. When traveling from here, increase the Travel cost by 1 Supply. _(For example, traveling from the Provinces costs 3 Supply, not 2 Supply.)_"
+    - text: "**Shrouded Wood**. When traveling from here, the Travel cost is 2 Supply, and you **ignore** the Narrow Pass and The Hidden Place powers. If an enemy rules here, you travel to the site of the ruler's choice _(Chancellor's choice if ruled by the Empire)_, even if another player is making you travel."
+    - text: "**Narrow Pass**. When traveling from another region to this region, you **must** travel to this site. When campaigning, if you declare any targets in this region and your pawn is in a different region, you **must** target this site unless you rule it."
+    - text: "**Great Slums**. When playing or moving a card to this site, you may discard a card here first."
+    - text: "**Marshes**. When searching, you **must** draw one fewer card if your pawn is here."
+    - text: "**Buried Giant**. When traveling from here, you may flip one secret on your board facedown to spend no Supply and **ignore** the Narrow Pass power. _(Facedown secrets cannot be used to pay a cost.)_"
+    - text: "**The Hidden Place**. You **cannot** travel to here or declare campaign targets here unless you flip one secret on your board facedown."
+    - text: "**The Tribunal**. **Action**: If you rule this site or your pawn is here, negotiate a binding exchange of `symbol:favor` and `symbol:secret` as well as binding actions at any future time, in any combination, with any player. _(Be as creative as you want with your agreement and your agreed-upon penalties if someone breaks it!)_"
+    
