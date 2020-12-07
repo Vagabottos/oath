@@ -51,7 +51,7 @@
     <!-- no text or pretext at this level -->
 
     <div class="rule major" [id]="rulesService.indexesToRules[rule.index]">
-      <span class="index major">{{ rule.index }}</span> 
+      <span class="index major" [id]="cleanIndex(rule.index)">{{ rule.index }}</span> 
       <a [innerHTML]="rule.formattedName | highlight:searchTerm:rule.index"
          [href]="'#' + rulesService.indexesToRules[rule.index]"></a>
     </div>
@@ -63,7 +63,7 @@
           [class.ion-hide]="!isVisible([majorIndex + 1, minorIndex + 1])">
 
       <div class="rule minor" [id]="rulesService.indexesToRules[childRule.index]" [class.has-text]="childRule.text">
-        <span class="index minor">{{ childRule.index }}</span> 
+        <span class="index minor" [id]="cleanIndex(childRule.index)">{{ childRule.index }}</span> 
         <a [innerHTML]="childRule.formattedName | highlight:searchTerm:childRule.index" 
            [href]="'#' + rulesService.indexesToRules[childRule.index]"></a>
 
@@ -81,7 +81,7 @@
         <!-- no pretext at this level -->
   
         <div class="rule child" [id]="rulesService.indexesToRules[grandchildRule.index]">
-          <span class="index child">{{ grandchildRule.index }}</span> 
+          <span class="index child" [id]="cleanIndex(grandchildRule.index)">{{ grandchildRule.index }}</span> 
           <span class="desc child">
             <a class="name child" [innerHTML]="grandchildRule.formattedName | highlight:searchTerm:grandchildRule.index"
                                   [href]="'#' + rulesService.indexesToRules[grandchildRule.index]"></a>
@@ -94,7 +94,8 @@
                 <a class="name child"    [id]="rulesService.indexesToRules[descRule.index]" 
                                          [innerHTML]="descRule.formattedName | highlight:searchTerm:descRule.index"
                                          [href]="'#' + rulesService.indexesToRules[descRule.index]"></a>
-                <span class="text child" [innerHTML]="descRule.text | highlight:searchTerm:descRule.index"></span>
+                <span class="text child" [innerHTML]="descRule.text | highlight:searchTerm:descRule.index"
+                                         [id]="cleanIndex(descRule.index)"></span>
 
                 <!-- I said please :( -->
                 <ol class="alphabeta-list list sublist" *ngIf="descRule.subchildren">
@@ -103,7 +104,8 @@
                     <a class="name child"    [id]="rulesService.indexesToRules[descDescRule.index]" 
                                              [innerHTML]="descDescRule.formattedName | highlight:searchTerm:descDescRule.index"
                                              [href]="'#' + rulesService.indexesToRules[descDescRule.index]"></a>
-                    <span class="text child" [innerHTML]="descDescRule.text | highlight:searchTerm:descDescRule.index"></span>
+                    <span class="text child" [innerHTML]="descDescRule.text | highlight:searchTerm:descDescRule.index"
+                                             [id]="cleanIndex(descDescRule.index)"></span>
                   </li>
                 </ol>
               </li>

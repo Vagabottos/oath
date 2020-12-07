@@ -40,6 +40,11 @@ export class HomePage implements OnInit, AfterContentInit, OnDestroy {
     this.nav$.unsubscribe();
   }
 
+  public cleanIndex(str: string): string {
+    if (str.endsWith('.')) { return str.substring(0, str.length - 1); }
+    return str;
+  }
+
   public toggleSearch() {
     this.showSearch = !this.showSearch;
 
