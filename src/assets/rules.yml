@@ -3,7 +3,7 @@
   color: "#000000"
   children:
     - text: Place the **map** on the table. Deal the Chronicled **site cards** and their attached **denizen**, **edifice**, and **relic cards** to the site slots on the map. Fill the Cradle fully, then the Provinces fully, then the Hinterland fully, from top to bottom.
-    - text: Place the **round marker** on the first _(star)_ space of the round track and the **Visions Drawn** marker on the "0" (star) space of the Visions Drawn track.
+    - text: Place the **round marker** on the first _(star)_ space of the round track and the **Visions Drawn** marker on the "0" _(star)_ space of the Visions Drawn track.
     - text: Place the Chronicled **goal reference** near the map.
     - text: "Collect the **following pieces** in the shared bank: 10 attack dice, 6 defense dice, the end die, 36 favor tokens, 20 secret tokens, the Banner of the Darkest Secret placard, and the Banner of the People’s Favor placard on the side without the Mob label."
     - text: Place 1 **favor token** on the People’s Favor and 1 **secret token** on the Darkest Secret.
@@ -145,7 +145,7 @@
         Whenever a player takes the Oathkeeper title, the title flips to its Oathkeeper side if it is not already on that side. Being the Oathkeeper adds to various victory goals (`rule:3`). The Oathkeeper must add one defense die in Campaign as defender (`rule:5.5.2`), and the Usurper must add two.
         <br><br>
 
-        `symbol:chancellor` The Chancellor holds the Oathkeeper of Supremacy title if the Empire meets the goal, and always adds its power when any Imperial player is defending (`rule:5.5.2`).
+        > `symbol:chancellor` The Chancellor holds the Oathkeeper of Supremacy title if the Empire meets the goal, and always adds its power when any Imperial player is defending (`rule:5.5.2`).
 
 - name: Victory
   color: "#000000"
@@ -235,8 +235,12 @@
         - name: Return Secrets.
           text: Move any secret tokens on denizens, edifices, and relics to your board. Flip any facedown secret tokens on your board to their front side. _(Secrets can flip down if you’re using battle plans with secret costs when defending, discarding a card that has a secret, or using certain site powers.)_
         - name: Refresh Supply.
-          text: "If you are an Exile or the Chancellor, move your Supply marker to the Supply space listing the number of warbands in your personal bank. <br> `symbol:chancellor` If you are a Citizen, refresh your Supply to the space
-          corresponding to the Chancellor's Supply."
+          text: >
+            "If you are an Exile or the Chancellor, move your Supply marker to the Supply space listing the number of warbands in your personal bank. 
+
+            <br><br>
+
+            > `symbol:chancellor` If you are a Citizen, refresh your Supply to the space corresponding to the Chancellor's Supply."
         - name: Save Supply.
           text: Move your Supply marker an extra space left for each Supply that you did not spend this turn. You cannot refresh Supply beyond its leftmost space.
         - name: Use Rest Powers.
@@ -285,8 +289,10 @@
         - name: "Step 2: Gain Warbands."
           text: >
             Gain two warbands. _(Take them from your personal bank and place them on your board.)_
-            <br>
-            `symbol:chancellor` If you are a Citizen, you gain purple warbands instead of warbands of your own color.
+
+            <br><br>
+
+            > `symbol:chancellor` If you are a Citizen, you gain purple warbands instead of warbands of your own color.
 
     - name: Trade
       children: 
@@ -322,8 +328,10 @@
         - name: "Step 1: Spend 2 Supply and Choose Defender."
           text: >
             You can choose any one other player who rules your site or whose pawn is at your site. If no player rules your site, you can choose the bandits (`rule:2.8.3`).
-            <br>
-            `symbol:chancellor` If you are a Citizen attacking the Chancellor or another Citizen, you are not an Imperial player during this Campaign. If you are the Chancellor attacking a Citizen, that Citizen is not an Imperial player during this Campaign.
+
+            <br><br>
+
+            > `symbol:chancellor` If you are a Citizen attacking the Chancellor or another Citizen, you are not an Imperial player during this Campaign. If you are the Chancellor attacking a Citizen, that Citizen is not an Imperial player during this Campaign.
 
         - name: "Step 2: Declare Targets and Collect Dice Pools."
           text: >
@@ -337,13 +345,15 @@
 
             <br><br>
 
-            `symbol:chancellor` If an Imperial player is defending, the Chancellor joins as an Ally. Also, any Citizen except the attacker, with the defender’s permission, may choose to join as an Ally if their pawn is at a targeted site or the site of the attacker’s pawn. Activate all the Campaign modifiers (Vow of Peace, etc.) ruled by the defender and all Allies.
+            > `symbol:chancellor` If an Imperial player is defending, the Chancellor joins as an Ally. Also, any Citizen except the attacker, with the defender’s permission, may choose to join as an Ally if their pawn is at a targeted site or the site of the attacker’s pawn. Activate all the Campaign modifiers (Vow of Peace, etc.) ruled by the defender and all Allies.
 
         - name: "Step 3: Use Battle Plans."
           text: >
             The attacker may use any battle plans (`rule:7.5`) they rule, once each. Then the defender may use any battle plans they rule, once each. The bandits use all battle plans they rule that have no cost. If the attack pool would lose an attack die but it has none left, add a defense die to the defense pool.
+
             <br><br>
-            `symbol:chancellor` If an Imperial player is defending, the defender and any Allies may use any battle plans they rule. _(Any of them can use a battle plan at an Imperial site or in their own advisers, but not other players’. The player who uses a specific battle plan pays its cost, and a specific battle plan cannot be used by multiple players.)_
+
+            > `symbol:chancellor` If an Imperial player is defending, the defender and any Allies may use any battle plans they rule. _(Any of them can use a battle plan at an Imperial site or in their own advisers, but not other players’. The player who uses a specific battle plan pays its cost, and a specific battle plan cannot be used by multiple players.)_
 
         - name: "Step 4: Roll Defense."
           text: >
@@ -357,7 +367,7 @@
 
             <br><br>
 
-            `symbol:chancellor` If an Imperial player is defending, each Ally adds the warbands on their board if their pawn is at the site of the attacker’s pawn or any targeted site.
+            > `symbol:chancellor` If an Imperial player is defending, each Ally adds the warbands on their board if their pawn is at the site of the attacker’s pawn or any targeted site.
 
         - name: "Step 5: Roll Attack."
           text: >
@@ -375,17 +385,21 @@
         - name: "Step 6: Resolve Defeat."
           text: >
             The defeated player kills half, rounded down, of the warbands in their force: the warbands on their board if they are the attacker, or the warbands that added to their defense if they are the defender. They move all the other warbands in their force to their board. _(Bandits cannot be killed - they just go into hiding.)_ If they used any battle plans that say "If you’re defeated," resolve them. 
-            <br>
-            `symbol:chancellor` If an Imperial player is defending, the Chancellor chooses which warbands in the defending force are killed.
+
+            <br><br>
+
+            > `symbol:chancellor` If an Imperial player is defending, the Chancellor chooses which warbands in the defending force are killed.
         
         - name: "Step 7: Resolve Attacker's Victory."
           text: If the attacker is victorious, they resolve the following steps in order.
-          children:
+          subchildren:
             - name: "Take Rule of Any Targeted Sites."
               text: >
                 You may place any number of your warbands, even zero, from your force onto any targeted sites. _(You can put zero warbands on sites even if you’re a Citizen and targeted Imperial sites.)_
-                <br>
-                `symbol:chancellor` Imperial warbands at sites move to the Chancellor’s board. Any warbands still on Citizens’ boards stay there.
+
+                <br><br>
+
+                > `symbol:chancellor` Imperial warbands at sites move to the Chancellor’s board. Any warbands still on Citizens’ boards stay there.
 
             - name: "Take All Targeted Relics and Banners."
               text:  _(If you took a banner, burn two favor or secrets from it, and flip the People’s Favor if you took it [`rule:2.5.3`].)_
@@ -423,10 +437,14 @@
     - name: Move Warbands To/From Your Site
       pretext: >
         You can move any number of your warbands, except the last one, from your site to your board. If you rule your site, you can move any number of warbands from your board to your site.
-        <br>
-        `symbol:chancellor` If you are a Citizen, the Chancellor must give you permission to move warbands from your site to your board.
-        <br>
-        `symbol:chancellor` If you are an Imperial player, you may give any number of warbands to another Imperial player whose pawn is at your site, or you may take any number of warbands from them. Both of these actions require their permission.
+
+        <br><br>
+
+        > `symbol:chancellor` If you are a Citizen, the Chancellor must give you permission to move warbands from your site to your board.
+
+        <br><br>
+
+        > `symbol:chancellor` If you are an Imperial player, you may give any number of warbands to another Imperial player whose pawn is at your site, or you may take any number of warbands from them. Both of these actions require their permission.
 
     - name: Offering Citizenship
       children:
@@ -578,7 +596,7 @@
     - name: Clean Up Map and Build Edifices
       pretext: Perform these steps in order.
       children:
-        - text: "`symbol:chancellor` If you are the Chancellor or a Citizen, you may build or repair one edifice: At any site you rule with no edifice, replace any denizen card with the intact edifice card of matching suit from the Archive, returning the replaced denizen to the world deck. Or at any site you rule, you may flip one edifice card from its ruined side to its intact side."
+        - text: "> `symbol:chancellor` If you are the Chancellor or a Citizen, you may build or repair one edifice: At any site you rule with no edifice, replace any denizen card with the intact edifice card of matching suit from the Archive, returning the replaced denizen to the world deck. Or at any site you rule, you may flip one edifice card from its ruined side to its intact side."
 
         - text: Discard all sites on the map except sites that you rule or that have any intact edifices, and shuffle them into the site deck. At each discarded site, discard denizen cards there to any discard pile, return relic cards there to the relic deck, and return ruined edifice cards there to the Archive.
 
@@ -699,3 +717,21 @@
     - text: "**You**: You alone, not including any Imperial Allies (`rule:5.5.2`)."
     - text: "**Your Enemy**: If you're the attacker, the defender and any Imperial Allies (5.5.2). If you're the defender, the attacker."
     - text: "**Your Site/Region**: The site/region that your pawn is in."
+
+- name: Site Reference
+  color: "#000000"
+  children:
+    - text: "**Opportunity Sites**. At the end of your Wake Phase, if your pawn is here, you may take one favor or secret from this site."
+    - text: "**Homeland Sites**. If you play a card of this suit to this site, and you have not discarded a card here of this suit during this turn, you get what is shown, gain `symbol:secret`, or `symbol:favor` from the corresponding favor bank, or 2 warbands, or take the relic here, treating this as recovering it."
+    - text: "**Coast Sites**. When traveling from here to a Coast site, the Travel cost is 1 Supply and you **ignore** the Narrow Pass power."
+    - text: "**Plains, Mountain**. You **must** add _(Plains)_ or subtract _(Mountain)_ one attack die if you declare any number of targets at this site _(even if you rule)_."
+    - text: "**River**. When mustering from a card at this site, you gain one more warband if you rule this site."
+    - text: "**Charming Valley**. When traveling from here, increase the Travel cost by 1 Supply. _(For example, traveling from the Provinces costs 3 Supply, not 2 Supply.)_"
+    - text: "**Shrouded Wood**. When traveling from here, the Travel cost is 2 Supply, and you **ignore** the Narrow Pass and The Hidden Place powers. If an enemy rules here, you travel to the site of the ruler's choice _(Chancellor's choice if ruled by the Empire)_, even if another player is making you travel."
+    - text: "**Narrow Pass**. When traveling from another region to this region, you **must** travel to this site. When campaigning, if you declare any targets in this region and your pawn is in a different region, you **must** target this site unless you rule it."
+    - text: "**Great Slums**. When playing or moving a card to this site, you may discard a card here first."
+    - text: "**Marshes**. When searching, you **must** draw one fewer card if your pawn is here."
+    - text: "**Buried Giant**. When traveling from here, you may flip one secret on your board facedown to spend no Supply and **ignore** the Narrow Pass power. _(Facedown secrets cannot be used to pay a cost.)_"
+    - text: "**The Hidden Place**. You **cannot** travel to here or declare campaign targets here unless you flip one secret on your board facedown."
+    - text: "**The Tribunal**. **Action**: If you rule this site or your pawn is here, negotiate a binding exchange of `symbol:favor` and `symbol:secret` as well as binding actions at any future time, in any combination, with any player. _(Be as creative as you want with your agreement and your agreed-upon penalties if someone breaks it!)_"
+    

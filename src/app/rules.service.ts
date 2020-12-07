@@ -109,6 +109,8 @@ export class RulesService {
 
     renderer.strong = (text: string) => `<strong class="emph">${text}</strong>`;
 
+    renderer.blockquote = (text: string) => `<div class="chancellor">${text}</div>`;
+
     // no paragraphs
     renderer.paragraph = (text: string) => text;
 
