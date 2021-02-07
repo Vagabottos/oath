@@ -678,10 +678,10 @@
         <br>
         All other information is public. _(This includes the card backs and number of cards in discard piles, and the numbers of favor, secrets, and warbands on boards. No, you cannot switch facedown advisers under the table or otherwise mix up which is which.)_
 
-    - name: No Unprompted losses
+    - name: No Unprompted Losses
       pretext: You cannot place, burn, or sacrifice more resources - including but not limited to favor, secrets, and warbands - than a cost or requirement prompts you to.
 
-    - name: No Unmprompted Binding Promises
+    - name: No Unprompted Binding Promises
       pretext: Negotiations and promises are encouraged, even promises for a future game, but promises are not binding except for offers of Citizenship (`rule:6.6`) and powers that say "binding" (`rule:7.6.3`).
 
 - name: Glossary
