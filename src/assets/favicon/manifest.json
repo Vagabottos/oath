@@ -1,6 +1,11 @@
 {
     "name": "Oath: The Chronicle Companion",
     "short_name": "Oath: TCC",
+    "theme_color": "#99629a",
+    "background_color": "#99629a",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
@@ -12,8 +17,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#99629a",
-    "background_color": "#99629a",
-    "display": "standalone"
+    ]
 }
