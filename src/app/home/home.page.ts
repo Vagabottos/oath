@@ -108,4 +108,5 @@ export class HomePage implements OnInit, AfterContentInit, OnDestroy {
 
      this.scrollToEl($event.target.hash, 'start');
   }
+
 }
