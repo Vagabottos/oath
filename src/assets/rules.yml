@@ -600,7 +600,7 @@
 
         - text: Discard all sites on the map except sites that you rule or that have any intact edifices, and shuffle them into the site deck. At each discarded site, discard denizen cards there to any discard pile, return relic cards there to the relic deck, and return ruined edifice cards there to the Archive.
 
-        - text: Flip any intact edifices at sites you do not rule to their ruined side _(no suit)_, and discard all denizen cards at sites where you flipped an edifice. Set aside any sites with ruins, and their attached ruin and relic cards, ordered from the top Cradle site to the bottom Hinterland site.
+        - text: Flip any intact edifices at sites you do not rule to their ruined side _(no suit)_, and discard all denizen cards at sites where you flipped an edifice. Set aside any sites with ruins, and their attached ruin, denizen, and relic cards, ordered from the top Cradle site to the bottom Hinterland site.
 
         - text: Remove all of the pawns, favor, secrets, and warbands from the map.
 
@@ -693,7 +693,7 @@
     - text: "**Burn**: Move the favor or secret from your board, or from another location if prompted, to the shared bank."
     - text: "**Discard**: Place the prompted cards in an order of your choice, facedown, on top of the Provinces discard pile if your pawn is in the Cradle, the Hinterland discard pile if your pawn is in the Provinces, or the Cradle discard pile if your pawn is in the Hinterland; if discarding cards in a different region from your pawn, discard based on the region of the card instead. Move any favor on it immediately to the matching favor bank. Move any secrets on it to the acting player’s board and flip them facedown."
     - text: "**Draw**: Take cards from the top of the prompted draw source, following the drawing rules in the Search action (`rule:5.1.2`)."
-    - text: "**Enemy**: Any Exile if you are the Chancellor or a Citizen. Any other player if you are an Exile or a Citizen who is currently not an Imperial player in some Campaigns (`rule:5.5.1`)."
+    - text: "**Enemy**: Any Exile if you are the Chancellor or a Citizen. Any other player if you are an Exile or a Citizen who is currently not an Imperial player in some Campaigns (`rule:5.5.1`). Bandits are enemies to all players and vice versa."
     - text: "**Exchange**: You may **Give** to the prompted player and vice versa."
     - text: "**Force**: As the attacker, the warbands on your board. As the defender, the warbands that are adding to your defense."
     - text: "**Gain**: Put the prompted piece on your board. Warbands come from your personal bank, secrets come from the shared bank, and favor comes from the prompted favor bank."
@@ -707,7 +707,7 @@
     - text: "**Personal Bank**: See `rule:2.2.3`."
     - text: "**Play**: Put the prompted card at a site, in your advisers, or in your personal bank following restrictions (`rule:2.8.1`, `rule:5.1.4`, `rule:7.2`)."
     - text: "**Reveal**: Show the front of the prompted card to everyone."
-    - text: "**Rule**: A player rules each site that has any of their warbands on it, rules any cards at sites that they rule, and rules their advisers. Bandits rule sites that have no warbands."
+    - text: "**Rule**: A player rules each face-up site that has any of their warbands on it, rules any cards at sites that they rule, and rules their advisers. Bandits rule face-up sites that have no warbands."
     - text: "**Sacrifice**: Choose to kill your own warbands."
     - text: "**Seize**:  Take in any way except Recover. See `rule:2.5.3`."
     - text: "**Shared Bank**: See `rule:2.1.7`."
