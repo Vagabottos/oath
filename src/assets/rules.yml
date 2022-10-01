@@ -312,7 +312,7 @@
     - name: Recover
       children: 
         - name: "Step 1: Spend 1 Supply and Choose Target."
-          text: Choose one facedown relic at your site or any one banner _(even one you hold)_. You can only recover the Darkest Secret if any card at the holder’s site does not match any of their advisers, or if you are recovering it from yourself. _(Ignore ruined edifices and facedown advisers, since they have no suit. You cannot recover the Darkest Secret from another player if their site has no cards or if they have no faceup advisers.)_
+          text: Choose one facedown relic at your site or any one banner _(even one you hold)_. You can only recover the Darkest Secret if any card at the holder’s site does not match any of their advisers, or if you are recovering it from yourself. _(Ignore ruined edifices and facedown advisers, since they have no suit. You cannot recover the Darkest Secret from another player if their site has no cards, but you can recover it if they have no faceup advisers.)_
         
         - name: "Step 2: Pay Cost."
           text:  If you are recovering a relic, your site will list the cost to recover it—place three favor in a specific favor bank, burn two favor, burn one secret, or burn two secrets. The People’s Favor costs any amount of favor greater than its current value. The Darkest Secret costs any amount of secrets greater than its current value. 
